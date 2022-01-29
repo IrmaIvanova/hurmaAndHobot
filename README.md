@@ -1,2 +1,2 @@
 # hurmaAndHobot
-small project husband
+small project with husband
