@@ -1,0 +1,11 @@
+.MainPage {
+  margin: 24px auto;
+  &-Red {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    &-Head {
+      background-color: burlywood;
+    }
+  }
+}

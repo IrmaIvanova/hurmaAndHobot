@@ -1,0 +1,1 @@
+export const netScaner = () => fetch("get", "http://192.168.1.5:5000/net-scaner")
