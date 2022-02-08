@@ -30,6 +30,25 @@ const MainPage = () => {
 
   // const arr = Object.keys(data)
 
+  const dataDefault = {
+    monthsWorked: {
+      January: {
+        hour: 180,
+        prize: 10,
+        salary: 45000
+      },
+      February: {
+        hour: 140,
+        prize: 5,
+        salary: 35000
+      },
+      March: {
+        hour: 160,
+        prize: 15,
+        salary: 40000
+      }
+    }
+  }
 
   return (
     <div className={cnMainPage('Red')}>
@@ -40,6 +59,8 @@ const MainPage = () => {
       onClick={scanner}  >{loading?<Loading text="Загружается"/>: <span>upload</span> } </Button>
   
       {!loading&& data && <BasicTable data={data}></BasicTable>}
+
+
 
     </div>
   )
