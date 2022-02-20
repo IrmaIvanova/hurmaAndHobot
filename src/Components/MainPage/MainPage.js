@@ -5,6 +5,7 @@ import Button from "@material-ui/core/Button";
 import BasicTable from '../Table/Table'
 import {Loading} from '../Loading/Loading'
 
+
 export const cnMainPage = cn('MainPage');
 
 const MainPage = () => {
@@ -36,8 +37,6 @@ const MainPage = () => {
       onClick={scanner}  >{loading?<Loading text="Загружается"/>: <span>upload</span> } </Button>
   
       {!loading&& data && <BasicTable data={data}></BasicTable>}
-
-
 
     </div>
   )

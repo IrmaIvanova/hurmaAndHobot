@@ -1,0 +1,14 @@
+.AuthAndRegistration{
+  width:20%;
+  margin: 0 auto;
+  height: auto;
+  display: block;
+  background:#fff;
+  padding:24px;
+  &-Item{
+    margin: 0 0 15px 0;
+    .MuiFormControl-root.MuiTextField-root{
+      width:100%;
+    }
+  }
+}
